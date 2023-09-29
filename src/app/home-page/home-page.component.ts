@@ -12,5 +12,8 @@ export class HomePageComponent {
     localStorage.clear();
     this._router.navigate(['']); 
   }
+  navigatetoChatRoom(){
+    this._router.navigate(['/chatroom']);
+  }
 
 }
