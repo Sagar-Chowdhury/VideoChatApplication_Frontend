@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
 import { AuthenticationService } from './authentication.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ChatroomComponent } from './chatroom/chatroom.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HomePageComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    ChatroomComponent
   ],
   imports: [
     BrowserModule,
